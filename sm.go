@@ -13,7 +13,7 @@ func main() {
 
     // user we are sending email to
     if len(os.Args) != 2 {
-        fmt.Println("Usage: sm recipient@domain.com < message_with_Headers.txt")
+        fmt.Println("Usage: sm recipient@domain.com < message_with_headers.txt")
         os.Exit(1)
     }
     to := os.Args[1]
